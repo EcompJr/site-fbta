@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guia Rápido - ERBASE 2017</title>
+    <meta name="description" content="ERBASE que neste ano de 2017 será organizada pela Universidadde Federal do Recôncavo da Bahia, nos dias 30 e 31 de agosto, e 01 de setembro.">
+    <meta name="keywords" content="evento computação, ciências da computação, sistemas de informação, engenharia de computação, ti, ufrb, cetec, cruz das almas, erbase, sbc, web, mobile, desktop, nuvem">
+    <meta name="author-template" content="ThemeForces.com">
+    <meta name="author" content="Recode Jr.">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <style>
+        .progrm {
+            background-color: #fff;
+            padding: 19px;
+            margin-bottom: 20px;
+            -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+            box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+            border-radius: 2px;
+            border: 0;
+        }
+
+        ul.justified {
+            float: none;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            width: 33%;
+        }
+
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 10px 5px;
+            border-style: solid;
+            border-width: 0px;
+            overflow: hidden;
+            word-break: normal;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+        }
+
+        .tg th {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            padding: 10px 5px;
+            border-style: solid;
+            border-width: 0px;
+            overflow: hidden;
+            word-break: normal;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+        }
+
+        .tg .tg-yw4l {
+            vertical-align: top
+        }
+
+        .tg .tg-9hbo {
+            font-weight: bold;
+            vertical-align: top
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+          $(".progrm1").fadeOut()
+          $(".progrm2").fadeOut()
+          $(".progrm3").fadeOut()
+          $(".progrm4").fadeOut()
+          $(".progrm5").fadeOut()
+          $(".progrm6").fadeOut()
+          $(".progrm7").fadeOut()
+
+            $(".btn1").click(function() {
+                if ($('.progrm1').css('display') == "none") {
+                    $(".progrm3").fadeOut()
+                    $(".progrm2").fadeOut()
+                    $(".progrm4").fadeOut()
+                    $(".progrm5").fadeOut()
+                    $(".progrm6").fadeOut()
+                    $(".progrm7").fadeOut()
+                    $(".progrm1").show("slow")
+                } else {
+                    $(".progrm1").fadeOut()
+                }
+            });
+            $(".btn2").click(function() {
+                if ($('.progrm2').css('display') == "none") {
+                    $(".progrm3").fadeOut()
+                    $(".progrm1").fadeOut()
+                    $(".progrm4").fadeOut()
+                    $(".progrm5").fadeOut()
+                    $(".progrm6").fadeOut()
+                    $(".progrm7").fadeOut()
+                    $(".progrm2").show("slow")
+                } else {
+                    $(".progrm2").fadeOut()
+                }
+            });
+            $(".btn3").click(function() {
+                if ($('.progrm3').css('display') == "none") {
+                    $(".progrm1").fadeOut()
+                    $(".progrm2").fadeOut()
+                    $(".progrm4").fadeOut()
+                    $(".progrm5").fadeOut()
+                    $(".progrm6").fadeOut()
+                    $(".progrm7").fadeOut()
+                    $(".progrm3").show("slow")
+                } else {
+                    $(".progrm3").fadeOut()
+                }
+            });
+            $(".btn4").click(function() {
+                if ($('.progrm4').css('display') == "none") {
+                    $(".progrm3").fadeOut()
+                    $(".progrm2").fadeOut()
+                    $(".progrm1").fadeOut()
+                    $(".progrm5").fadeOut()
+                    $(".progrm6").fadeOut()
+                    $(".progrm7").fadeOut()
+                    $(".progrm4").show("slow")
+                } else {
+                    $(".progrm4").fadeOut()
+                }
+            });
+            $(".btn5").click(function() {
+                if ($('.progrm5').css('display') == "none") {
+                    $(".progrm3").fadeOut()
+                    $(".progrm2").fadeOut()
+                    $(".progrm4").fadeOut()
+                    $(".progrm1").fadeOut()
+                    $(".progrm6").fadeOut()
+                    $(".progrm7").fadeOut()
+                    $(".progrm5").show("slow")
+                } else {
+                    $(".progrm5").fadeOut()
+                }
+            });
+            $(".btn6").click(function() {
+                if ($('.progrm6').css('display') == "none") {
+                    $(".progrm3").fadeOut()
+                    $(".progrm2").fadeOut()
+                    $(".progrm4").fadeOut()
+                    $(".progrm5").fadeOut()
+                    $(".progrm1").fadeOut()
+                    $(".progrm7").fadeOut()
+                    $(".progrm6").show("slow")
+                } else {
+                    $(".progrm6").fadeOut()
+                }
+            });
+            $(".btn7").click(function() {
+                if ($('.progrm7').css('display') == "none") {
+                    $(".progrm3").fadeOut()
+                    $(".progrm2").fadeOut()
+                    $(".progrm4").fadeOut()
+                    $(".progrm5").fadeOut()
+                    $(".progrm6").fadeOut()
+                    $(".progrm1").fadeOut()
+                    $(".progrm7").show("slow")
+                } else {
+                    $(".progrm7").fadeOut()
+                }
+            });
+        });
+
+    </script>
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400" rel="stylesheet" type="text/css">
+    <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default guiaRapido navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="index.html">ERBASE 2017</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html#tf-home" target="_blank">Início</a></li>
+                    <li><a href="index.html#tf-sobre" target="_blank">O Evento</a></li>
+                    <li><a href="index.html#tf-info" target="_blank">Participantes</a></li>
+                    <li><a href="index.html#tf-programacao" target="_blank">Programação</a></li>
+                    <li><a href="chamadas.html" target="_blank">Chamadas</a></li>
+                    <li><a href="index.html#tf-inscricao" target="_blank">Inscrição</a></li>
+                    <li><a href="#tf-contato" class="page-scroll">Contato</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Programação Section
+    ==========================================-->
+    <div class="text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2><strong>Guia Rápido</strong></h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+                <p>Veja aqui algumas informações sobre estabelecimentos em Cruz das Almas</p>
+            </div>
+            <div class="space"></div>
+            <div align="center">
+                <ul class="nav nav-tabs">
+                    <li><a class="btn1" data-ajax="false"><h3>Hospedagem</h3></a></li>
+                    <li><a class="btn2" data-ajax="false"><h3>Restaurante</h3></a></li>
+                    <li><a class="btn3" data-ajax="false"><h3>Farmácia</h3></a></li>
+                    <li><a class="btn4" data-ajax="false"><h3>Assistência médica</h3></a></li>
+                    <li><a class="btn5" data-ajax="false"><h3>Transporte</h3></a></li>
+                    <li><a class="btn6" data-ajax="false"><h3>Supermercados e padarias</h3></a></li>
+                    <li><a class="btn7" data-ajax="false"><h3>Outros</h3></a></li>
+                </ul>
+            </div>
+
+            <div class="progrm1 text-center">
+                <table class="table table-striped">
+                    <tr>
+                        <td><strong>Nome</strong></td>
+                        <td><strong>Endereço</strong></td>
+                        <td><strong>Telefone</strong></td>
+                        <td><strong>E-mail</strong></td>
+                        <td><strong>Site</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Prata Hotel</strong></td>
+                        <td>Rua J. B. da Fonseca, n° 86</td>
+                        <td>(75) 3621-4465</td>
+                        <td>atendimento@pratahotelba.com.br</td>
+                        <td><a href="http://www.pratahotelba.com.br" target="_blank">www.pratahotelba.com.br</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hotel Valparaíso</strong></td>
+                        <td>Paralela Lions Clube, n° 580</td>
+                        <td>(75) 3621-1574</td>
+                        <td>contato@valparaisohotel.com.br</td>
+                        <td><a href="http://www.valparaisohotel.com.br/pt/" target="_blank">www.valparaisohotel.com.br/pt/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pousada do Sol</strong></td>
+                        <td>Rua Crisógno Fernandes, n° 500</td>
+                        <td>(75) 3621-1967</td>
+                        <td>-</td>
+                        <td><a href="http://www.pousadasol.com.br/index.html" target="_blank">www.pousadasol.com.br/</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hotel Flamboyant Inn</strong></td>
+                        <td>Rua Crisogno Fernandes, n° 193</td>
+                        <td>(75) 3621-2414</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pousada Sumaúma</strong></td>
+                        <td>Rua Dr. Edmundo Pereira Leite, s/n</td>
+                        <td>(75) 3621-7543</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pousada da Praça</strong></td>
+                        <td>Praça Senador Temístocles, s/n</td>
+                        <td>(75) 3621-0912</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pousada de Themis</strong></td>
+                        <td>Av. Alberto Passos, n° 30</td>
+                        <td>(75) 3621-1276</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pousada Tia Maria</strong></td>
+                        <td>Rua Dr. Edmundo Pereira Leite, n° 212</td>
+                        <td>(75) 3621-2408</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pousada Planalto</strong></td>
+                        <td>Av. Alberto Passos, s/n</td>
+                        <td>(75) 3621-0087</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+            <div class="progrm2">
+                <table class="table table-striped">
+                  <tr>
+                      <td><strong>Nome</strong></td>
+                      <td><strong>Endereço</strong></td>
+                      <td><strong>Telefone</strong></td>
+                      <td><strong>E-mail</strong></td>
+                      <td><strong>Site</strong></td>
+                  </tr>
+                    <tr>
+                        <td><strong>Restaurante e Pizzaria Recanto</strong></td>
+                        <td>Rua Edmundo Pereira Leite</td>
+                        <td>(75) 3621-0006</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rincão Gaúcho</strong></td>
+                        <td>Praça Sen. Temístocles, n° 612</td>
+                        <td>(75) 3621-1975</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Parati Delicatessen</strong></td>
+                        <td>Rua J. B. da Fonseca</td>
+                        <td>(75) 3621-1109</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Totta Mix (Restaurante e Delicatessen)</strong></td>
+                        <td>Praça Senador Themistocles<br>Rua João Batista Fonseca, n° 30</td>
+                        <td>(75) 3621-7398<br>(75) 3621-1975</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Restaurante Meu Cravo</strong></td>
+                        <td>Rua Crisógno Fernandes, n° 503</td>
+                        <td>(75) 3621-2341</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Restaurante Absinto Grill</strong></td>
+                        <td>Rua Crisógno Fernandes, n° 373</td>
+                        <td>(75) 3621-3000</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Churrascaria Canto Gaúcho</strong></td>
+                        <td>Rua Prof. Mata Pereira, n° 65</td>
+                        <td>(75) 3621-1343</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Prashadam Restaurante Natural (Vegano)</strong></td>
+                        <td>Rua Amado Queiroz, n° 297</td>
+                        <td>(75) 3621-1606</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tortines</strong></td>
+                        <td>Rua J.B da Fonseca, n° 125</td>
+                        <td>(75) 3621-1549</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+              </table>
+            </div>
+
+
+
+
+            <div class="progrm3">
+                <table class="table table-striped">
+                  <tr>
+                      <td><strong>Nome</strong></td>
+                      <td><strong>Endereço</strong></td>
+                      <td><strong>Telefone</strong></td>
+                      <td><strong>E-mail</strong></td>
+                      <td><strong>Site</strong></td>
+                  </tr>
+                    <tr>
+                        <td><strong>Castro Alves</strong></td>
+                        <td>Praça Alberto Passos, nº 22</td>
+                        <td>(75) 3621-1779</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Boa Saúde</strong></td>
+                        <td>Praça Senador Themístocles</td>
+                        <td>(75) 3621-2445</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Santana</strong></td>
+                        <td>Praça Senador Themístocles</td>
+                        <td>(75) 3621-6510</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Pague Menos</strong></td>
+                        <td>Avenida Alberto Passos, n° 230</td>
+                        <td>(75) 3621-6702</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <!-- <tr>
+                        <td><strong></strong></td>
+                        <td></td>
+                        <td></td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr> -->
+                  </table>
+            </div>
+
+            <div class="progrm4">
+                <table class="table table-striped">
+                  <tr>
+                      <td><strong>Nome</strong></td>
+                      <td><strong>Endereço</strong></td>
+                      <td><strong>Telefone</strong></td>
+                      <td><strong>E-mail</strong></td>
+                      <td><strong>Site</strong></td>
+                  </tr>
+                    <tr>
+                        <td><strong>IPER (Emergência 24h)</strong></td>
+                        <td>Coplan</td>
+                        <td>(75) 3621-2314</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>UPA (Emergência 24h)</strong></td>
+                        <td>Av. Irmã Dulce, nº 890</td>
+                        <td>(75) 3621-8400</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Instituto Cardioimagem</strong></td>
+                        <td>Rua Desidério Brandão, n° 147</td>
+                        <td>(75) 3673-0000</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Climped</strong></td>
+                        <td>Rua Professor Mata Pereira, nº 132</td>
+                        <td>(75) 3621-2674</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Climfisio</strong></td>
+                        <td>Rua Crisogno Fernandes, nº 229</td>
+                        <td>(75) 3621-3177</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                  <tr>
+                        <td><strong>Famede</strong></td>
+                        <td>Rua Crisogeno Fernandes, nº 4</td>
+                        <td>(75) 3621-1148</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                  </table>
+            </div>
+
+            <div class="progrm5">
+                <table class="table table-striped">
+                  <tr>
+                      <td><strong>Nome</strong></td>
+                      <td><strong>Endereço</strong></td>
+                      <td><strong>Telefone</strong></td>
+                      <td><strong>E-mail</strong></td>
+                      <td><strong>Site</strong></td>
+                  </tr>
+                    <tr>
+                        <td><strong>Táxi (Antiga Pérgula)</strong></td>
+                        <td>-</td>
+                        <td>(75) 3621-289</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Táxi (Rodoviária)</strong></td>
+                        <td>-</td>
+                        <td>(75) 3621-4040</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Viação Águia Branca</strong></td>
+                        <td>-</td>
+                        <td>(75) 3621-9007</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Viação RD</strong></td>
+                        <td>-</td>
+                        <td>(75) 3621-2417</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Viação SANTANA</strong></td>
+                        <td>-</td>
+                        <td>(75) 3621–5087</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Viação JAUÁ</strong></td>
+                        <td>-</td>
+                        <td>(75) 3621–5087</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Associação dos Motos Taxistas<br>de Cruz das Almas</strong></td>
+                        <td>-</td>
+                        <td>(75) 8104-8534<br>(75) 9198-9189</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="progrm6">
+                <table class="table table-striped">
+                  <tr>
+                      <td><strong>Nome</strong></td>
+                      <td><strong>Endereço</strong></td>
+                      <td><strong>Telefone</strong></td>
+                      <td><strong>E-mail</strong></td>
+                      <td><strong>Site</strong></td>
+                  </tr>
+                    <tr>
+                        <td><strong>Hiper São Paulo</strong></td>
+                        <td>Rua 15 de Novembro</td>
+                        <td>(75) 3621-5266</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>C&S Supermercado</strong></td>
+                        <td>Praça Senador Temístocles, n° 808</td>
+                        <td>(75) 3621-2811</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Paraty Delicatessen</strong></td>
+                        <td>Rua J. B. da Fonseca</td>
+                        <td>(75) 3621-1109</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Casa do Pão</strong></td>
+                        <td>Rua Tiradentes, n° 31A</td>
+                        <td>(75) 3621-2438</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                  </table>
+            </div>
+
+            <div class="progrm7">
+                <table class="table table-striped">
+                  <tr>
+                      <td><strong>Nome</strong></td>
+                      <td><strong>Endereço</strong></td>
+                      <td><strong>Telefone</strong></td>
+                      <td><strong>E-mail</strong></td>
+                      <td><strong>Site</strong></td>
+                  </tr>
+                    <tr>
+                        <td><strong>Delegacia de Policia</strong></td>
+                        <td>-</td>
+                        <td>(75) 3621-3443</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Samu</strong></td>
+                        <td>-</td>
+                        <td>192</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div class="col-md-4"></div>
+
+
+
+    <div class="col-md-4"></div>
+
+    <!-- </div> -->
+
+
+    <nav id="footer">
+        <div id="tf-contato" class="container">
+            <div class="pull-left fnav">
+                <p>Todos os direitos reservados. COPYRIGHT © 2017. Desenvolvido por <a href="http://recodejr.com/" target="_blank">Recode Jr</a>.</p>
+            </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li>Contato: <a href="mailto:simoeslc@gmail.com">simoeslc@gmail.com</a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+                    <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
