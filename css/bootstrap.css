@@ -3210,8 +3210,8 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
   color: #fff;
-  background-color: #fcac45;
-  border-color: #fcac45;
+  background-color: #E63337;
+  border-color: #E63337;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -3236,11 +3236,11 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #f0ad4e;
+  background-color: #E63337;
   border-color: #eea236;
 }
 .btn-warning .badge {
-  color: #f0ad4e;
+  color: #E63337;
   background-color: #fff;
 }
 .btn-danger {
@@ -3446,13 +3446,13 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  /*color: #fcac45;*/
+  /*color: #E63337;*/
   color: #000;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #fcac45;
+  color: #E63337;
   text-decoration: none;
   background-color: #f5f5f5;
 }
@@ -4435,7 +4435,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #fcac45;
+    color: #E63337;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4779,7 +4779,7 @@ a.label:focus {
   background-color: #31b0d5;
 }
 .label-warning {
-  background-color: #f0ad4e;
+  background-color: #E63337;
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
@@ -5056,7 +5056,7 @@ a.thumbnail.active {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning {
-  background-color: #f0ad4e;
+  background-color: #E63337;
 }
 .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
