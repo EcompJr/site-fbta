@@ -394,6 +394,13 @@ img.img-circle.team-img {
 	background-attachment: fixed;
 }
 
+#btnFace{
+
+	margin-top:5%;
+	font-size: 30px;
+
+}
+
 #organization .item{
     padding: 0;
     margin: 35px;
