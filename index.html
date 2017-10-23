@@ -2,15 +2,15 @@
 <html lang="pt-br">
 
 <head>
- <!-- Global Site Tag (gtag.js) - Google Analytics -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-706449-9"></script>
- <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
-  gtag('config', 'UA-706449-9');
- </script>
-  
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-706449-9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments) };
+    gtag('js', new Date());
+    gtag('config', 'UA-706449-9');
+  </script>
+
   <!-- Basic Page Needs
     ================================================== -->
   <meta charset="utf-8">
@@ -27,7 +27,7 @@
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -94,8 +94,8 @@
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script>
-    $(document).ready(function() {
-      $(".btn1").click(function() {
+    $(document).ready(function () {
+      $(".btn1").click(function () {
         if ($('.progrm1').css('display') == "none") {
           $(".progrm3").fadeOut()
           $(".progrm2").fadeOut()
@@ -104,7 +104,7 @@
           $(".progrm1").fadeOut()
         }
       });
-      $(".btn2").click(function() {
+      $(".btn2").click(function () {
         if ($('.progrm2').css('display') == "none") {
           $(".progrm1").fadeOut()
           $(".progrm3").fadeOut()
@@ -113,7 +113,7 @@
           $(".progrm2").fadeOut()
         }
       });
-      $(".btn3").click(function() {
+      $(".btn3").click(function () {
         if ($('.progrm3').css('display') == "none") {
           $(".progrm1").fadeOut()
           $(".progrm2").fadeOut()
@@ -134,8 +134,10 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-  <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"
+    rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400"
+    rel="stylesheet" type="text/css">
   <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script type="text/javascript" src="js/modernizr.custom.js"></script> -->
@@ -155,27 +157,45 @@
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-      	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        <a class="navbar-brand" href="index.html"><span class="color">Iº FBTA</span></a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <span class="color">Iº FBTA</span>
+        </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#tf-home" class="page-scroll">Início</a></li>
-          <li><a href="#tf-sobre" class="page-scroll">O Evento</a></li>
-          <li><a href="#tf-info" class="page-scroll">Área do participante</a></li>
-          <li><a href="#tf-programacao" class="page-scroll">Programação</a></li>
-          <li><a href="#tf-clients" class="page-scroll">Palestrantes</a></li>
-          <li><a href="#tf-minicursos" class="page-scroll">Cursos</a></li>
-          <li><a href="#tf-inscricao" class="page-scroll">INSCRIÇÃO</a>
-          <li><a href="#tf-organization" class="page-scroll">Organização</a>              
-          <li><a href="#tf-contato" class="page-scroll">Contato</a></li>
+          <li>
+            <a href="#tf-home" class="page-scroll">Início</a>
+          </li>
+          <li>
+            <a href="#tf-sobre" class="page-scroll">O Evento</a>
+          </li>
+          <li>
+            <a href="#tf-info" class="page-scroll">Área do participante</a>
+          </li>
+          <li>
+            <a href="#tf-programacao" class="page-scroll">Programação</a>
+          </li>
+          <li>
+            <a href="#tf-clients" class="page-scroll">Palestrantes</a>
+          </li>
+          <li>
+            <a href="#tf-minicursos" class="page-scroll">Cursos</a>
+          </li>
+          <li>
+            <a href="#tf-inscricao" class="page-scroll">INSCRIÇÃO</a>
+            <li>
+              <a href="#tf-organization" class="page-scroll">Organização</a>
+              <li>
+                <a href="#tf-contato" class="page-scroll">Contato</a>
+              </li>
         </ul>
       </div>
 
@@ -189,24 +209,32 @@
   <div id="tf-home" class="text-center">
     <div class="overlay">
       <div class="content">
-      	<br>
-		<img src="img/torre_white.png" class="img" height="80">
-          
-        </div>
-        <h1>Bem Vindo ao <strong><span class="color">Iº FBTA</span></strong></h1>
-        <h3>Iº FÓRUM BAIANO DE TECNOLOGIAS ABERTAS</h3>
-        <p class="lead"><strong>27 a 29 de Novembro de 2017</strong>
-          <br>
-          <strong>Universidade Estadual de Feira de Santana</strong>
-          <br>
-          <strong>Software/Hardware Livre, Empreendedorismo, Inovação e Carreira!</strong> 
-          <br>
-        </p>
-        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2Fevents%2F541885112809770%2F&layout=button&size=small&mobile_iframe=false&width=97&height=20&appId" width="97" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         <br>
-      <a href="#tf-inscricao" class="page-scroll"><button type="button" class="btn btn-warning btn-lg">Inscrições em breve!</button></a>      
+        <img src="img/torre_white.png" class="img" height="80">
+
       </div>
+      <h1>Bem Vindo ao
+        <strong>
+          <span class="color">Iº FBTA</span>
+        </strong>
+      </h1>
+      <h3>Iº FÓRUM BAIANO DE TECNOLOGIAS ABERTAS</h3>
+      <p class="lead">
+        <strong>27 a 29 de Novembro de 2017</strong>
+        <br>
+        <strong>Universidade Estadual de Feira de Santana</strong>
+        <br>
+        <strong>Software/Hardware Livre, Empreendedorismo, Inovação e Carreira!</strong>
+        <br>
+      </p>
+      <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2Fevents%2F541885112809770%2F&layout=button&size=small&mobile_iframe=false&width=97&height=20&appId"
+        width="97" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+      <br>
+      <a href="#tf-inscricao" class="page-scroll">
+        <button type="button" class="btn btn-warning btn-lg">Inscrições em breve!</button>
+      </a>
     </div>
+  </div>
   </div>
 
   <!-- Evento Section
@@ -218,30 +246,26 @@
           <img src="img/torre_portrait.png" class="img-responsive" height="100px">
         </div>
         <div class="col-md-6">
-          <div class="about-text" >
+          <div class="about-text">
             <div class="section-title">
               <h4>O Evento</h4>
               <hr>
               <div class="clearfix"></div>
             </div>
             <div class="text-justify">
-              <p class="intro1">O objetivo geral do <strong>Iº FBTA</strong> é promover um espaço de divulgação, 
-              reflexão e integração sobre Tecnologias Abertas e como podem ser exploradas 
-              para desenvolvimento acadêmico, econômico e social, em especial com aplicação no 
-              processo de inovação tecnológica e empreendedorismo. 
-              <br>
-              <br>
-              O evento cria um fórum 
-              regional para disseminar conhecimentos em Tecnologias Abertas e promover discussões sobre aspectos
-               teóricos e práticos do seu uso em ambientes acadêmicos, comerciais, industriais, de
-               desenvolvimento e de pesquisa.
-               <br>
-               <br> 
-               O FBTA permitirá a troca de experiências entre
-                seus participantes por meio de discussões e atividades colaborativas, bem como
-              disseminar a experiência de palestrantes de outras regiões do país</p>
+              <p class="intro1">O objetivo geral do
+                <strong>Iº FBTA</strong> é promover um espaço de divulgação, reflexão e integração sobre Tecnologias Abertas e como
+                podem ser exploradas para desenvolvimento acadêmico, econômico e social, em especial com aplicação no processo
+                de inovação tecnológica e empreendedorismo.
+                <br>
+                <br> O evento cria um fórum regional para disseminar conhecimentos em Tecnologias Abertas e promover discussões
+                sobre aspectos teóricos e práticos do seu uso em ambientes acadêmicos, comerciais, industriais, de desenvolvimento
+                e de pesquisa.
+                <br>
+                <br> O FBTA permitirá a troca de experiências entre seus participantes por meio de discussões e atividades colaborativas,
+                bem como disseminar a experiência de palestrantes de outras regiões do país</p>
             </div>
-            
+
 
           </div>
         </div>
@@ -255,7 +279,9 @@
     <div class="overlay">
       <div class="container">
         <div class="section-title center">
-          <h2>Informações aos <strong>Participantes</strong></h2>
+          <h2>Informações aos
+            <strong>Participantes</strong>
+          </h2>
           <br>
           <div class="line">
             <hr>
@@ -319,7 +345,9 @@
   <div id="tf-programacao" class="text-center">
     <div class="container">
       <div class="section-title center">
-        <h2><strong>Programação</strong></h2>
+        <h2>
+          <strong>Programação</strong>
+        </h2>
         <div class="line">
           <hr>
         </div>
@@ -329,9 +357,21 @@
       <div class="space"></div>
       <div align="center">
         <ul class="nav nav-tabs justified">
-          <li><a class="btn1" href="#tf-programacao" data-ajax="false"><h2>27/11</h2></a></li>
-          <li><a class="btn2" href="#tf-programacao" data-ajax="false"><h2>28/11</h2></a></li>
-          <li><a class="btn3" href="#tf-programacao" data-ajax="false"><h2>29/11</h2></a></li>
+          <li>
+            <a class="btn1" href="#tf-programacao" data-ajax="false">
+              <h2>27/11</h2>
+            </a>
+          </li>
+          <li>
+            <a class="btn2" href="#tf-programacao" data-ajax="false">
+              <h2>28/11</h2>
+            </a>
+          </li>
+          <li>
+            <a class="btn3" href="#tf-programacao" data-ajax="false">
+              <h2>29/11</h2>
+            </a>
+          </li>
         </ul>
       </div>
       <!--
@@ -542,8 +582,8 @@
           </tr>
         </table>
       -->
-      </div>
     </div>
+  </div>
   </div>
 
   <!-- Palestrantes Section
@@ -551,155 +591,197 @@
   <div id="tf-clients" class="text-center">
     <div class="overlay">
       <div class="container">
+
         <div class="section-title center">
-          <h2><strong>Palestrantes</strong></h2>
+          <h2>
+            <strong>Palestrantes</strong>
+          </h2>
           <br>
           <p>Confira abaixo os palestrantes que estarão no Iº FBTA</p>
-          <p><h3>Novidades em breve!</h3></p>
+          <h3>Novidades em breve!</h3>
           <div class="line">
             <hr>
           </div>
         </div>
 
-      </div>
-      <div id="clients" class="owl-carousel owl-theme">
+        <div class="row">
 
-        <div class="portfolio-item">
-          <div class="hover-bg">
-            <a href=https://www.linkedin.com/in/ivo-peixinho-140aa513/?ppe=1 target=new>
-              <div class="hover-test">
-                <br/>
-                <h3>Ivo Peixinho</h3>
-                <p>Serviço de Repressão a Crimes Cibernéticos da Polícia Federal</p>
-                <i><br />Palestra: Em breve!</i>
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href=https://www.linkedin.com/in/ivo-peixinho-140aa513/?ppe=1 target=new>
+                  <div class="hover-test">
+                    <br/>
+                    <h3>Ivo Peixinho</h3>
+                    <p>Serviço de Repressão a Crimes Cibernéticos da Polícia Federal</p>
+                    <i>
+                      <br/>Palestra: Em breve!</i>
+                  </div>
+                  <img src="img/palestrantes/ivo.jpg" class="img-circle team-img">
+                </a>
               </div>
-              <img src="img/palestrantes/ivo.jpg" class="img-circle team-img">
-            </a>
+            </div>
           </div>
+
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href="#tf-programacao">
+                  <div class="hover-test">
+                    <br/>
+                    <h3>Sandro Andrade</h3>
+                    <p>IFBA, Diretor nos projetos Qt e KDE</p>
+                    <i>
+                      <br />Palestra: Desenvolvimento de carreira em software livre: o que preciso saber?</i>
+                  </div>
+                  <img src="img/palestrantes/sandroandrade.jpg" class="img-circle team-img">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href=http://lattes.cnpq.br/3569882396619399 target=new>
+                  <div class="hover-test">
+                    <br/>
+                    <h3>Nelson Lago</h3>
+                    <p>Centro de Competência em Software Livre do IME/USP</p>
+                    <i>
+                      <br />Palestra: Em breve! / Case de Sucesso: CCSL-USP</i>
+                  </div>
+                  <img src="img/palestrantes/nelson.jpg" class="img-circle team-img">
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href=http://colivre.coop.br/ target=new>
+                  <div class="hover-test">
+                    <br/>
+                    <h3>Vicente Aguiar</h3>
+                    <p>Colivre - Cooperativa de Trabalho em Tecnologias Livres</p>
+                    <i>
+                      <br />Palestra: Economia Colaborativa e Modelos de Negócios / Case de Sucesso: Colivre</i>
+                  </div>
+                  <img src="img/palestrantes/vicente.jpg" class="img-circle team-img">
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
+        <!-- End of row-->
+
+        <hr>
+
+        <div class="row">
+
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href=http://linkn.com.br target=new>
+                  <div class="hover-test">
+                    <br/>
+                    <h3>Judson Bandeira</h3>
+                    <p>LinKn - Linked Knowledge</p>
+                    <i>
+                      <br />Palestra: Dados Abertos / Case de Sucesso: LinKn</i>
+                  </div>
+                  <img src="img/palestrantes/judson.jpg" class="img-circle team-img">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href=https://www.jusbrasil.com.br target=new>
+                  <div class="hover-test">
+                    <br/>
+                    <h3>Osvaldo Matos Junior (Tupy)</h3>
+                    <p>JusBrasil</p>
+                    <i>
+                      <br />Case de Sucesso: JusBrasil</i>
+                  </div>
+                  <img src="img/palestrantes/tupy.jpg" class="img-circle team-img">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href="#tf-programacao">
+                  <div class="hover-test">
+                    <br/>
+                    <h3>João Paulo Just Peixoto</h3>
+                    <p>UEFS/UNIFACS</p>
+                    <i>
+                      <br />Palestra: Tutorial Lineage OS</i>
+                  </div>
+                  <img src="img/organization/just.jpg" class="img-circle team-img">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href="#tf-programacao">
+                  <div class="hover-test">
+                    <br/>
+                    <h3>Thiago Mariano</h3>
+                    <p>SERPRO - Serviço Federal de Processamento de Dados</p>
+                    <i>
+                      <br />Case de Sucesso: SERPRO</i>
+                  </div>
+                  <img src="img/palestrantes/avatar.png" class="img-circle team-img">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- End of row -->
+
+        <hr>
+
+        <div class="row">
+
+          <div class="portfolio-item">
+            <div class="col-md-3">
+              <div class="hover-bg">
+                <a href="#tf-programacao">
+                  <div class="hover-test">
+                    <br/>
+                    <h3>Victor Sarinho</h3>
+                    <p>UEFS</p>
+                    <i>
+                      <br />Minicurso: Desenvolvendo Jogos Digitais 2D com Godot</i>
+                  </div>
+                  <img src="img/palestrantes/victor.gif" class="img-circle team-img">
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- End of row -->
         
-        <div class="portfolio-item">
-          <div class="hover-bg">
-            <a href="#tf-programacao">
-              <div class="hover-test">
-                <br/>
-                <h3>Sandro Andrade</h3>
-                <p>IFBA, Diretor nos projetos Qt e KDE</p>
-                <i><br />Palestra: Desenvolvimento de carreira em software livre: o que preciso saber?</i>
-              </div>
-              <img src="img/palestrantes/sandroandrade.jpg" class="img-circle team-img">
-            </a>
-          </div>
-        </div>
-
-        <div id="portfolio-item" class="portfolio-item">
-          <div class="hover-bg">
-            <a href=http://lattes.cnpq.br/3569882396619399 target=new>
-              <div class="hover-test">
-                <br/>
-                <h3>Nelson Lago</h3>
-                <p>Centro de Competência em Software Livre do IME/USP</p>
-                <!-- <i class="fa fa-plus"></i> -->
-                <i><br />Palestra: Em breve! / Case de Sucesso: CCSL-USP</i>
-              </div>
-              <img src="img/palestrantes/nelson.jpg" class="img-circle team-img">
-            </a>
-          </div>
-        </div>
-
-        <div id="portfolio-item" class="portfolio-item">
-          <div class="hover-bg">
-            <a href=http://colivre.coop.br/ target=new>
-              <div class="hover-test">
-                <br/>
-                <h3>Vicente Aguiar</h3>
-                <p>Colivre - Cooperativa de Trabalho em Tecnologias Livres</p>
-                <!-- <i class="fa fa-plus"></i> -->
-                <i><br />Palestra: Economia Colaborativa e Modelos de Negócios / Case de Sucesso: Colivre</i>
-              </div>
-              <img src="img/palestrantes/vicente.jpg" class="img-circle team-img">
-            </a>
-          </div>
-        </div>
-
-	<div id="portfolio-item" class="portfolio-item">
-          <div class="hover-bg">
-            <a href=http://linkn.com.br target=new>
-              <div class="hover-test">
-                <br/>
-                <h3>Judson Bandeira</h3>
-                <p>LinKn - Linked Knowledge</p>
-                <!-- <i class="fa fa-plus"></i> -->
-                <i><br />Palestra: Dados Abertos / Case de Sucesso: LinKn</i>
-              </div>
-		<img src="img/palestrantes/judson.jpg" class="img-circle team-img">
-            </a>
-          </div>
-        </div>
-
-	<div id="portfolio-item" class="portfolio-item">
-          <div class="hover-bg">
-            <a href=https://www.jusbrasil.com.br target=new>
-              <div class="hover-test">
-                <br/>
-                <h3>Osvaldo Matos Junior (Tupy)</h3>
-                <p>JusBrasil</p>
-                <!-- <i class="fa fa-plus"></i> -->
-                <i><br />Case de Sucesso: JusBrasil</i>
-              </div>
-              <img src="img/palestrantes/tupy.jpg" class="img-circle team-img">
-            </a>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div class="hover-bg">
-            <a href="#tf-programacao">
-              <div class="hover-test">
-                <br/>
-                <h3>João Paulo Just Peixoto</h3>
-                <p>UEFS/UNIFACS</p>
-                <!-- <i class="fa fa-plus"></i> -->
-                <i><br />Palestra: Tutorial Lineage OS</i>
-              </div>
-              <img src="img/organization/just.jpg" class="img-circle team-img">
-            </a>
-          </div>
-        </div>
-
-        <div id="portfolio-item" class="portfolio-item">
-          <div class="hover-bg">
-            <a href="#tf-programacao">
-              <div class="hover-test">
-                <br/>
-                <h3>Thiago Mariano</h3>
-                <p>SERPRO - Serviço Federal de Processamento de Dados</p>
-                <!-- <i class="fa fa-plus"></i> -->
-                <i><br />Case de Sucesso: SERPRO</i>
-              </div>
-              <img src="img/palestrantes/avatar.png" class="img-circle team-img">
-            </a>
-          </div>
-        </div>
-
-	<div class="portfolio-item">
-          <div class="hover-bg">
-            <a href="#tf-programacao">
-              <div class="hover-test">
-                <br/>
-                <h3>Victor Sarinho</h3>
-                <p>UEFS</p>
-                <!-- <i class="fa fa-plus"></i> -->
-                <i><br />Minicurso: Desenvolvendo Jogos Digitais 2D com Godot</i>
-              </div>
-              <img src="img/palestrantes/victor.gif" class="img-circle team-img">
-            </a>
-          </div>
-        </div>        
-
       </div>
     </div>
   </div>
+
 
   <!-- Minicursos Section
     ==========================================-->
@@ -707,7 +789,9 @@
     <div class="container">
       <!-- Container -->
       <div class="section-title text-center center">
-        <h2><strong>Minicursos</strong></h2>
+        <h2>
+          <strong>Minicursos</strong>
+        </h2>
         <div class="line">
           <hr>
         </div>
@@ -742,7 +826,9 @@
               <div class="hover-text">
                 <h4>Hands-on: Linux - De ponta a ponta! </h4>
                 <p>A definir</p>
-                <a href="mc1.html"><i class="fa fa-plus"></i></a>
+                <a href="mc1.html">
+                  <i class="fa fa-plus"></i>
+                </a>
                 <div class="clearfix"></div>
               </div>
               <img src="img/minicurso/linux.jpg" class="img-responsive" alt="img do minicurso">
@@ -756,13 +842,15 @@
               <div class="hover-text">
                 <h4>Hands-on: Desenvolvendo Jogos Digitais 2D com Godot</h4>
                 <p>Victor Sarinho (UEFS)</p>
-                <a href="mc2.html"><i class="fa fa-plus"></i></a>
+                <a href="mc2.html">
+                  <i class="fa fa-plus"></i>
+                </a>
                 <div class="clearfix"></div>
               </div>
               <img src="img/minicurso/godot.png" class="img-responsive" alt="img do minicurso">
             </div>
           </div>
-        </div>       
+        </div>
 
         <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
           <div class="portfolio-item">
@@ -770,7 +858,9 @@
               <div class="hover-text">
                 <h4>Hands-on: Desenvolvendo Aplicações Android com Qt</h4>
                 <p>Sandro Andrade (IFBA/KDE)</p>
-                <a href="mc5.html"><i class="fa fa-plus"></i></a>
+                <a href="mc5.html">
+                  <i class="fa fa-plus"></i>
+                </a>
                 <div class="clearfix"></div>
               </div>
               <img src="img/minicurso/qt.png" class="img-responsive" alt="img do minicurso">
@@ -784,7 +874,9 @@
               <div class="hover-text">
                 <h4>Business Intelligence Open Source</h4>
                 <p>Thiago Mariano (SEPRO)</p>
-                <a href="mc6.html"><i class="fa fa-plus"></i></a>
+                <a href="mc6.html">
+                  <i class="fa fa-plus"></i>
+                </a>
                 <div class="clearfix"></div>
               </div>
               <img src="img/minicurso/pentaho.jpg" class="img-responsive" alt="img do minicurso">
@@ -798,7 +890,9 @@
               <div class="hover-text">
                 <h4>Desenvolvendo Software Livre: comunidades, metodologias e ferramentas</h4>
                 <p>Nelson Lago (CCSL/USP)</p>
-                <a href="mc3.html"><i class="fa fa-plus"></i></a>
+                <a href="mc3.html">
+                  <i class="fa fa-plus"></i>
+                </a>
                 <div class="clearfix"></div>
               </div>
               <img src="img/minicurso/software.jpg" class="img-responsive" alt="img do minicurso">
@@ -806,40 +900,47 @@
           </div>
         </div>
 
-         <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+        <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
                 <h4>Em breve!</h4>
                 <p>Em breve!</p>
-                <a href="mc4.html"><i class="fa fa-plus"></i></a>
+                <a href="mc4.html">
+                  <i class="fa fa-plus"></i>
+                </a>
                 <div class="clearfix"></div>
               </div>
               <img src="img/minicurso/jogos.png" class="img-responsive" alt="img do minicurso">
             </div>
           </div>
         </div>
-    
-    </div>
-  </div>
 
-  <!-- ===================== Inscrição Section ===================== -->
-  <div id="tf-inscricao" class="text-center">
-    <div class="overlay">
-      <div class="container">
-        <div class="section-title center">
-          <h2><strong>Inscrição</strong></h2>
-          <div class="line">
-            <hr>
-          </div>
-          <div class="clearfix"></div>
-          <h1 style="color: #E63337" >Em Breve!</h1>
-          <br>  
-          <h3>Veja no <a href="https://www.facebook.com/events/541885112809770/" target="_blank"><i class="fa fa-facebook"></i></a> quem já confirmou presença!</h3>  
+      </div>
+    </div>
+
+    <!-- ===================== Inscrição Section ===================== -->
+    <div id="tf-inscricao" class="text-center">
+      <div class="overlay">
+        <div class="container">
+          <div class="section-title center">
+            <h2>
+              <strong>Inscrição</strong>
+            </h2>
+            <div class="line">
+              <hr>
+            </div>
+            <div class="clearfix"></div>
+            <h1 style="color: #E63337">Em Breve!</h1>
+            <br>
+            <h3>Veja no
+              <a href="https://www.facebook.com/events/541885112809770/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a> quem já confirmou presença!</h3>
 
           </div>
         </div>
-    <!--
+        <!--
     <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <h2><strong>FBTA</strong></h2>
@@ -974,203 +1075,245 @@
 
   <!-- Organização Section
     ==========================================-->
-    <div id="tf-organization" class="text-center">
-      <div class="overlay">
-        <div class="container">
+  <div id="tf-organization" class="text-center">
+    <div class="overlay">
+      <div class="container">
 
-          <div class="section-title center">
-            <h2><strong>Organização</strong></h2>
-            <br>
-            <p>Quem faz acontecer o Iº FBTA</p>
-            <div class="line"><hr></div> 
+        <div class="section-title center">
+          <h2>
+            <strong>Organização</strong>
+          </h2>
+          <br>
+          <p>Quem faz acontecer o Iº FBTA</p>
+          <div class="line">
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+            <h5>Coordenador Geral do FBTA</h5>
+            <a href="http://www.rtcalumby.com.br" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/rodrigo.jpg" alt="avatar">
+            </a>
+            <h3>Prof. Rodrigo Tripodi Calumby</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Coordenador de Cursos</h5>
+            <a href="http://just.pro.br" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/just.jpg" alt="avatar">
+            </a>
+            <h3>Prof. João Paulo Just Peixoto</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Coordenador de Credenciamento</h5>
+            <a href="http://www.artificial.eng.br" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/angelo.jpg" alt="avatar">
+            </a>
+            <h3>Prof. Angelo Conrado Loula</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Coordenador Financeiro</h5>
+            <a href="" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/nilton.jpeg" alt="avatar"> </a>
+            <h3>Prof. Nilton Souza Dantas</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Coordenador Captação</h5>
+            <a href="http://lattes.cnpq.br/7785636949335472" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/fabio.jpeg" alt="avatar">
+            </a>
+            <h3>Prof. Fábio Barreto</h3>
+            <p>IFBA - Campus Feira de Santana</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Coordenador de Logística</h5>
+            <a href="http://lattes.cnpq.br/1774651195708490" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/murilo.jpeg" alt="avatar">
+            </a>
+            <h3>Prof. Murilo Santos</h3>
+            <p>IFBA - Campus Feira de Santana</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-2">
+            <h5>Suporte de Credenciamento</h5>
+            <a href="http://lattes.cnpq.br/2587393949674134" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/solenir.jpg" alt="avatar">
+            </a>
+            <h3>José Solenir Lima Figuerêdo</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Suporte de Credenciamento</h5>
+            <a href="https://www.facebook.com/khaickoliveirabrito" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/khaick.jpeg" alt="avatar">
+            </a>
+            <h3>Khaíck Oliveira Brito</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Suporte de Credenciamento</h5>
+            <a href="http://lattes.cnpq.br/3069870756540211" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/luciano.jpeg" alt="avatar">
+            </a>
+            <h3>Luciano Araujo Dourado</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Suporte de Credenciamento</h5>
+            <a href="http://lattes.cnpq.br/3414165256984433" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/wanderson.jpg" alt="avatar">
+            </a>
+            <h3>Wanderson Bezerra da Silva</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Suporte de Laboratórios</h5>
+            <a href="http://lattes.cnpq.br/5274361259343484" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/felipe.jpg" alt="avatar">
+            </a>
+            <h3>Felipe Souza Cordeiro</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Suporte de Laboratórios</h5>
+            <a href="http://facebook.com/nilsonaugusto" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/nilson.jpeg" alt="avatar">
+            </a>
+            <h3>Nilson Magalhães Neto</h3>
+            <p>UEFS</p>
           </div>
 
-          <div class="row">
-            <div class="col-md-2">
-              <h5>Coordenador Geral do FBTA</h5>
-              <a href="http://www.rtcalumby.com.br" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/rodrigo.jpg" alt="avatar"></a>
-              <h3>Prof. Rodrigo Tripodi Calumby</h3>
-              <p>UEFS</p>          	
-            </div> 
-            <div class="col-md-2">
-              <h5>Coordenador de Cursos</h5>
-              <a href="http://just.pro.br" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/just.jpg" alt="avatar">
-          	  </a>
-              <h3>Prof. João Paulo Just Peixoto</h3>
-              <p>UEFS</p> 
-            </div>  
-            <div class="col-md-2">
-              <h5>Coordenador de Credenciamento</h5>
-              <a href="http://www.artificial.eng.br" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/angelo.jpg" alt="avatar"></a>
-              <h3>Prof. Angelo Conrado Loula</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Coordenador Financeiro</h5>
-              <a href="" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/nilton.jpeg" alt="avatar"> </a>
-              <h3>Prof. Nilton Souza Dantas</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Coordenador Captação</h5>
-              <a href="http://lattes.cnpq.br/7785636949335472" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/fabio.jpeg" alt="avatar"></a>
-              <h3>Prof. Fábio Barreto</h3>
-              <p>IFBA - Campus Feira de Santana</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Coordenador de Logística</h5>
-              <a href="http://lattes.cnpq.br/1774651195708490" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/murilo.jpeg" alt="avatar"></a>
-              <h3>Prof. Murilo Santos</h3>
-              <p>IFBA - Campus Feira de Santana</p>
-            </div>
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-2">
-              <h5>Suporte de Credenciamento</h5>
-              <a href="http://lattes.cnpq.br/2587393949674134" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/solenir.jpg" alt="avatar"></a>
-              <h3>José Solenir Lima Figuerêdo</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Suporte de Credenciamento</h5>
-              <a href="https://www.facebook.com/khaickoliveirabrito" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/khaick.jpeg" alt="avatar"></a>
-              <h3>Khaíck Oliveira Brito</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Suporte de Credenciamento</h5>
-              <a href="http://lattes.cnpq.br/3069870756540211" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/luciano.jpeg" alt="avatar"></a>
-              <h3>Luciano Araujo Dourado</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Suporte de Credenciamento</h5>
-              <a href="http://lattes.cnpq.br/3414165256984433" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/wanderson.jpg" alt="avatar"></a>
-              <h3>Wanderson Bezerra da Silva</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Suporte de Laboratórios</h5>
-              <a href="http://lattes.cnpq.br/5274361259343484" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/felipe.jpg" alt="avatar"></a>
-              <h3>Felipe Souza Cordeiro</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Suporte de Laboratórios</h5>
-              <a href="http://facebook.com/nilsonaugusto" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/nilson.jpeg" alt="avatar"></a>
-              <h3>Nilson Magalhães Neto</h3>
-              <p>UEFS</p>
-            </div>
-            
-        </div>
-        <hr>
-        <div class="row">
-        	<div class="col-md-2">
-              <h5>Suporte de Laboratórios</h5>
-              <a href="" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/avatar.png" alt="avatar"></a>
-              <h3>Lucas Almeida Silva</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Coordenador de Mídias Sociais</h5>
-              <a href="http://lattes.cnpq.br/6414921501858482" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/marcondes.jpg" alt="avatar"></a>
-              <h3>Marcondes Coelho Feitoza</h3>
-              <p>UEFS</p>
-            </div>
-            <div class="col-md-2">
-              <h5>Suporte de Website</h5><br>
-              <a href="https://www.facebook.com/sdtarso" target="new">
-              <img class="img-rounded team-img" height="100" src="img/organization/saulo.jpg" alt="avatar"></a>
-              <h3>Saulo de Tarso</h3>
-              <p>EcompJr UEFS</p>
-            </div>
+          <div class="col-md-2">
+            <h5>Suporte de Laboratórios</h5>
+            <a href="" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/avatar.png" alt="avatar">
+            </a>
+            <h3>Lucas Almeida Silva</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Coordenador de Mídias Sociais</h5>
+            <a href="http://lattes.cnpq.br/6414921501858482" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/marcondes.jpg" alt="avatar">
+            </a>
+            <h3>Marcondes Coelho Feitoza</h3>
+            <p>UEFS</p>
+          </div>
+          <div class="col-md-2">
+            <h5>Suporte de Website</h5>
+            <br>
+            <a href="https://www.facebook.com/sdtarso" target="new">
+              <img class="img-rounded team-img" height="100" src="img/organization/saulo.jpg" alt="avatar">
+            </a>
+            <h3>Saulo de Tarso</h3>
+            <p>EcompJr UEFS</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
-<div id="tf-apoiadores" class="text-center">
+  <div id="tf-apoiadores" class="text-center">
     <div class="overlay">
       <div class="container">
         <div class="section-title center">
-          <h2><strong>Seja nosso apoiador!</strong></h2>
+          <h2>
+            <strong>Seja nosso apoiador!</strong>
+          </h2>
           <div class="line">
             <hr>
           </div>
           <div class="clearfix"></div>
-          <h3 style="color: #E63337" >Fale conosco! <a href="mailto:contatofbta@gmail.com">contatofbta@gmail.com</a></h3>
+          <h3 style="color: #E63337">Fale conosco!
+            <a href="mailto:contatofbta@gmail.com">contatofbta@gmail.com</a>
+          </h3>
         </div>
-    </div>
-    
-  <!-- RODAPE -->
-  <nav id="footer">
-    <div id="tf-contato" class="container">
-      <div class="pull-left fnav">
-          <h3>Contato: <a href="mailto:contatofbta@gmail.com">contatofbta@gmail.com</a></h3>
-          <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-          <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->        
       </div>
-      <div class="pull-right fnav">
-        <ul class="footer-social">
-<p>Todos os direitos reservados. COPYRIGHT © 2017. Desenvolvido por <a href="http://ecompjr.com.br/" style="font-size:14px; font-weight: bold" target="_blank">EcompJr</a></p>
 
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  <!-- RODAPE COLABORADORES -->
-  <div id="apoio">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-          <h6><p><b>Realização:</b></p></h6>
-          <a href="http://www.uefs.br/" target="_blank"><img src="img/uefs.png" class="logoapoio" alt="Logo UEFS"></a>
-          <a href="http://portal.ifba.edu.br/" target="_blank"><img src="img/logoIFBA.png" class="logoapoio" alt="Logo IFBA"></a>
-        </div>
-         <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
-              <h6><p><b>Apoio:</b></p></h6>
-              <a href="http://www.fapesb.ba.gov.br/" target="_blank"><img src="img/logo_topo_fapesb.png" class="logoapoio"  alt="Logo Fapesb"></a>
-              <a href="http://ecompjr.com.br/" target="_blank"><img id="logoEcompJr" src="img/logoNome.png" class="logoapoio" alt="Logo"></a>
+      <!-- RODAPE -->
+      <nav id="footer">
+        <div id="tf-contato" class="container">
+          <div class="pull-left fnav">
+            <h3>Contato:
+              <a href="mailto:contatofbta@gmail.com">contatofbta@gmail.com</a>
+            </h3>
+            <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
           </div>
-        <!-- <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+          <div class="pull-right fnav">
+            <ul class="footer-social">
+              <p>Todos os direitos reservados. COPYRIGHT © 2017. Desenvolvido por
+                <a href="http://ecompjr.com.br/" style="font-size:14px; font-weight: bold" target="_blank">EcompJr</a>
+              </p>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- RODAPE COLABORADORES -->
+      <div id="apoio">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+              <h6>
+                <p>
+                  <b>Realização:</b>
+                </p>
+              </h6>
+              <a href="http://www.uefs.br/" target="_blank">
+                <img src="img/uefs.png" class="logoapoio" alt="Logo UEFS">
+              </a>
+              <a href="http://portal.ifba.edu.br/" target="_blank">
+                <img src="img/logoIFBA.png" class="logoapoio" alt="Logo IFBA">
+              </a>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+              <h6>
+                <p>
+                  <b>Apoio:</b>
+                </p>
+              </h6>
+              <a href="http://www.fapesb.ba.gov.br/" target="_blank">
+                <img src="img/logo_topo_fapesb.png" class="logoapoio" alt="Logo Fapesb">
+              </a>
+              <a href="http://ecompjr.com.br/" target="_blank">
+                <img id="logoEcompJr" src="img/logoNome.png" class="logoapoio" alt="Logo">
+              </a>
+            </div>
+            <!-- <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
               <h6><p><b>Patrocinio</b></p></h6>
               <img src="img/logo_sbc.png" class="logoapoio"  alt="Logo">
           </div> -->
+          </div>
+        </div>
+
       </div>
-    </div>
 
-  </div>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+      <script type="text/javascript" src="js/SmoothScroll.js"></script>
+      <script type="text/javascript" src="js/jquery.isotope.js"></script>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/SmoothScroll.js"></script>
-  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+      <script src="js/owl.carousel.js"></script>
 
-  <script src="js/owl.carousel.js"></script>
-
-  <!-- Javascripts
+      <!-- Javascripts
     ================================================== -->
-  <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
