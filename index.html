@@ -91,6 +91,10 @@
       font-weight: bold;
       vertical-align: top
     }
+
+    thead{
+      text-align: center !important;
+    }
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script>
@@ -355,7 +359,7 @@
         <h3>Em breve!</h3>
       </div>
       <div class="space"></div>
-      <div align="center">
+      <div align="center" style="margin-bottom:5%">
         <ul class="nav nav-tabs justified">
           <li>
             <a class="btn1" href="#tf-programacao" data-ajax="false">
@@ -374,214 +378,272 @@
           </li>
         </ul>
       </div>
-      <!--
+      
       <div class="progrm1">
-        <table class="table table-bordered">
-          <tr>
-            <td><strong>Horário</strong></td>
-            <td><strong>Sala 1</strong></td>
-            <td><strong>Sala 2</strong></td>
-            <td><strong>Sala 3</strong></td>
-            <td><strong>Sala 4</strong></td>
-            <td><strong>Auditório</strong></td>
-          </tr>
-          <tr>
-            <td>09:00</td>
-            <td colspan="5" class="intervalosc">CREDENCIAMENTO</td>
-          </tr>
-          <tr>
-            <td>10:00</td>
-            <td class="progbase">PROGBASE</td>
-            <td class="mc1">MC1</td>
-            <td class="mc2">MC2</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>11:00</td>
-            <td colspan="5" class="intervalos">INTERVALO</td>
-          </tr>
-          <tr>
-            <td>11:30</td>
-            <td class="progbase">PROGBASE</td>
-            <td class="mc1">MC1</td>
-            <td class="mc2">MC2</td>
-            <td class="wpos">WPOS</td>
-            <td class="wticg">WTICG</td>
-          </tr>
-          <tr>
-            <td>13:30</td>
-            <td colspan="5" class="intervalos">ALMOÇO</td>
-          </tr>
-          <tr>
-            <td>15:00</td>
-            <td class="progbase">PROGBASE</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="palestra">PALESTRA 1</td>
-          </tr>
-          <tr>
-            <td>16:00</td>
-            <td colspan="5" class="intervalos">INTERVALO</td>
-          </tr>
-          <tr>
-            <td>16:30</td>
-            <td class="progbase">PROGBASE</td>
-            <td></td>
-            <td></td>
-            <td class="wpos">WPOS</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18:30 - 20:30</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="palestra">ABERTURA PALESTRA 2</td>
-          </tr>
-        </table>
+          <table class="table table-bordered">
+              <thead>
+                  <tr>
+                      <th style="text-align:center">27/11</th>
+                      <th style="text-align:center">Anfiteatro </th>
+                      <th style="text-align:center">Sala</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>8:00</td>
+                      <td class="plenaria" colspan="2">Credenciamento</td>
+                  </tr>
+                  <tr>
+                      <td>9:00</td>
+                      <td>Abertura</td>
+                      <td>Hack</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>9:30</td>
+                      <td>P1</td>
+                      <td>Hack</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>10:20</td>
+                      <td colspan="2" class="intervalosp">Intervalo</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>10:40</td>
+                      <td>P2</td>
+                      <td>Hack</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>12:00</td>
+                      <td colspan="2" class="intervalosp">Intervalo</td>                      
+                  </tr>
+                  
+                  <tr>
+                      <td>14:00</td>
+                      <td>P3</td>
+                      <td>Hack</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>15:00</td>
+                      <td>P4</td>
+                      <td>Hack</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>16:00</td>
+                      <td colspan="2" class="intervalosp">Intervalo</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>16:30</td>
+                      <td>P5</td>
+                      <td>Hack</td>
+                  </tr>
+                  
+                  <tr>
+                      <td>17:30</td>
+                      <td>&nbsp;</td>
+                      <td>Hack</td>
+                  </tr>
+              </tbody>
+              </table>
       </div>
-
-
 
       <div class="progrm2">
-        <table class="table table-bordered">
-          <tr>
-            <td><strong>Horário</strong></td>
-            <td><strong>Sala 1</strong></td>
-            <td><strong>Sala 2</strong></td>
-            <td><strong>Sala 3</strong></td>
-            <td><strong>Sala 4</strong></td>
-            <td><strong>Auditório</strong></td>
-          </tr>
-          <tr>
-            <td>09:00</td>
-            <td colspan="5"></td>
-          </tr>
-          <tr>
-            <td>10:00</td>
-            <td class="mc3">MC3</td>
-            <td class="mc4">MC4</td>
-            <td class="mc5">MC5</td>
-            <td class="mc6">MC6</td>
-            <td class="plenaria">PLENÁRIA</td>
-          </tr>
-          <tr>
-            <td>11:00</td>
-            <td colspan="5" class="intervalosp">INTERVALO/POSTERS</td>
-          </tr>
-          <tr>
-            <td>11:30</td>
-            <td class="mc3">MC3</td>
-            <td class="mc4">MC4</td>
-            <td class="mc5">MC5</td>
-            <td class="mc6">MC6</td>
-            <td class="wei">WEI</td>
-          </tr>
-          <tr>
-            <td>13:30</td>
-            <td colspan="5" class="intervalos">ALMOÇO</td>
-          </tr>
-          <tr>
-            <td>15:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="palestra">PALESTRA 3</td>
-          </tr>
-          <tr>
-            <td>16:00</td>
-            <td colspan="5" class="intervalosp">INTERVALO/POSTERS</td>
-          </tr>
-          <tr>
-            <td>16:30</td>
-            <td></td>
-            <td class="wei">WEI</td>
-            <td></td>
-            <td class="wticg">WTICG</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18:30 - 20:30</td>
-            <td colspan="5" class="intervalos">JANTAR POR ADESÃO</td>
-          </tr>
-        </table>
+          <table class="table table-bordered">
+              <thead>
+                  <tr >
+                      <th>28/11</th>
+                      <th>Auditório 3</th>
+                      <th>LabProg</th>
+                      <th>NUCAE</th>
+                      <th>MT55</th>
+                      <th>Sala</th>
+                  </tr>
+              </thead>
+              <tbody>
+               <tr>
+                  <td>8:00</td>
+                  <td class="plenaria">Credenciamento</td>
+                  <td class="mc1">MC1</td>
+                  <td class="mc2">MC2</td>
+                  <td>MC3</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>8:30</td>
+                  <td>P6</td>
+                  <td class="mc1">MC1</td>
+                  <td class="mc2">MC2</td>
+                  <td>MC3</td>
+                  <td>Hack</td>
+              </tr>
+               <tr><td>9:30</td>
+                  <td>P7</td>
+                  <td class="mc1">MC1</td>
+                  <td class="mc2">MC2</td>
+                  <td>MC3</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>10:30</td>
+                  <td colspan="5" class="intervalosp">Intervalo</td>
+              </tr>
+               <tr>
+                  <td>10:50</td>
+                  <td>Cases 1</td>
+                  <td class="mc1">MC1</td>
+                  <td class="mc2">MC2</td>
+                  <td>MC3</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>12:00</td>
+                  <td colspan="5" class="intervalosp">Intervalo</td>
+              </tr>
+               <tr>
+                  <td>28/11</td>
+                  <td>Auditório 3</td>
+                  <td>LabProg</td>
+                  <td>NUCAE</td>
+                  <td>S8</td>
+                  <td>Sala</td>
+              </tr>
+               <tr>
+                  <td>14:00</td>
+                  <td>Cases 2</td>
+                  <td class="mc1">MC1</td>
+                  <td class="mc2">MC2</td>
+                  <td>MC4</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>15:00</td>
+                  <td>P8</td>
+                  <td class="mc1">MC1</td>
+                  <td class="mc2">MC2</td>
+                  <td>MC4</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>16:00</td>
+                  <td colspan="5" class="intervalosp">Intervalo</td>
+              </tr>
+               <tr>
+                  <td>16:20</td>
+                  <td>Mesa Redonda</td>
+                  <td class="mc1">MC1</td>
+                  <td class="mc2">MC2</td>
+                  <td>MC4</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>17:30</td>
+                  <td>Mesa Redonda</td>
+                  <td class="mc1">MC1</td>
+                  <td class="mc2">MC2</td>
+                  <td>MC4</td>
+                  <td>Hack</td>
+              </tr>
+              </tbody></table>
       </div>
 
-
-
-
       <div class="progrm3">
-        <table class="table table-bordered">
-          <tr>
-            <td><strong>Horário</strong></td>
-            <td><strong>Sala 1</strong></td>
-            <td><strong>Sala 2</strong></td>
-            <td><strong>Sala 3</strong></td>
-            <td><strong>Sala 4</strong></td>
-            <td><strong>Auditório</strong></td>
-          </tr>
-          <tr>
-            <td>09:00</td>
-            <td colspan="5"></td>
-          </tr>
-          <tr>
-            <td>10:00</td>
-            <td class="mc7">MC7</td>
-            <td class="mc8">MC8</td>
-            <td></td>
-            <td></td>
-            <td class="palestra">PALESTRA 4</td>
-          </tr>
-          <tr>
-            <td>11:00</td>
-            <td colspan="5" class="intervalos">INTERVALO</td>
-          </tr>
-          <tr>
-            <td>11:30</td>
-            <td class="mc7">MC7</td>
-            <td class="mc8">MC8</td>
-            <td class="xbase">XBASE</td>
-            <td class="wticg">WTICG</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>13:30</td>
-            <td colspan="5" class="intervalos">ALMOÇO</td>
-          </tr>
-          <tr>
-            <td>15:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="palestra">PALESTRA 5</td>
-          </tr>
-          <tr>
-            <td>16:00</td>
-            <td colspan="5" class="intervalos">INTERVALO</td>
-          </tr>
-          <tr>
-            <td>16:30</td>
-            <td></td>
-            <td></td>
-            <td class="xbase">XBASE</td>
-            <td class="wticg">WTICG</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>18:30 - 20:30</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td class="encerramento">ENCERRAMENTO</td>
-          </tr>
-        </table>
-      -->
+          <table class="table table-bordered">
+              <thead>
+                  <tr><th>29/11</th>
+                      <th>Auditório 3</th>
+                      <th>LabProg</th>
+                      <th>NUCAE</th>
+                      <th>MT55</th>
+                      <th>Sala</th>
+                  </tr>
+              </thead>
+              <tbody>
+               <tr>
+                  <td>8:00</td>
+                  <td class="plenaria">Credenciamento</td>
+                  <td>MC5</td>
+                  <td>MC7</td>
+                  <td>MC8</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>9:00</td>
+                  <td>P9</td>
+                  <td>MC5</td>
+                  <td>MC7</td>
+                  <td>MC8</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>10:00</td>
+                  <td colspan="4" class="intervalosp">Intervalo</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>10:20</td>
+                  <td>P10</td>
+                  <td>MC5</td>
+                  <td>MC7</td>
+                  <td>MC8</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>11:20</td>
+                  <td>P11</td>
+                  <td>MC5</td>
+                  <td>MC7</td>
+                  <td>MC8</td>
+                  <td>Hack</td>
+              </tr>
+               <tr>
+                  <td>12:30</td>
+                  <td colspan="5" class="intervalosp">Intervalo</td>
+              </tr>
+               <tr>
+                  <td>14:00</td>
+                  <td>T1</td>
+                  <td>MC6</td>
+                  <td>MC7</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+              </tr>
+               <tr>
+                  <td>15:00</td>
+                  <td>T1</td>
+                  <td>MC6</td>
+                  <td>MC7</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+              </tr>
+               <tr>
+                  <td>16:00</td>
+                  <td colspan="5" class="intervalosp">Intervalo</td>
+              </tr>
+               <tr>
+                  <td>16:20</td>
+                  <td>Apresentação dos produtos da Hackathon</td>
+                  <td>MC6</td>
+                  <td>MC7</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+              </tr>
+               <tr>
+                  <td>17:20</td>
+                  <td>Encerramento</td>
+                  <td>MC6</td>
+                  <td>MC7</td>
+                  <td>&nbsp;</td>
+                  <td></td>
+              </tr>
+              </tbody>
+              </table>
+      
     </div>
   </div>
   </div>
@@ -844,9 +906,9 @@
         <div class="clearfix"></div>
         <p>Capacite-se! Participe dos minicursos do Iº FBTA</p>
       </div>
-      <!-- <div class="space"></div> -->
+      <div class="space"></div>
 
-      <!-- <div class="categories">
+       <div class="categories">
 
                 <ul class="cat">
                     <li class="pull-left">
@@ -854,19 +916,20 @@
                     <li class="pull-right">
                         <ol class="type">
                             <li><a href="#" data-filter="*" class="active">Todos</a></li>
-                            <li><a href="#" data-filter=".microcontrolador">Microcontrolador</a></li>
+                            <li><a href="#" data-filter=".handson">Hands-on</a></li>
                             <li><a href="#" data-filter=".jogos">Jogos</a></li>
-                            <li><a href="#" data-filter=".bots">Bots</a></li>
+                            <li><a href="#" data-filter=".mercado">Mercado</a></li>
+                            <li><a href="#" data-filter=".ferramentas">Ferramentas</a></li>
                             <li><a href="#" data-filter=".outros">Outros</a></li>
-                        </ol>
+                          </ol>
                     </li>
                 </ul>
                 <div class="clearfix"></div>
-            </div> -->
+            </div> 
 
       <div id="lightbox" class="row">
 
-        <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+        <div class="col-sm-6 col-md-3 col-lg-3 handson">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
@@ -882,7 +945,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+        <div class="col-sm-6 col-md-3 col-lg-3 outros">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
@@ -899,7 +962,7 @@
         </div>
 
 
-        <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+        <div class="col-sm-6 col-md-3 col-lg-3 ferramentas">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
@@ -915,7 +978,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+        <div class="col-sm-6 col-md-3 col-lg-3 ferramentas">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
@@ -931,7 +994,7 @@
           </div>
         </div>
        
-        <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+        <div class="col-sm-6 col-md-3 col-lg-3 outros handson">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
@@ -947,7 +1010,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+        <div class="col-sm-6 col-md-3 col-lg-3 mercado">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
@@ -963,7 +1026,7 @@
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+        <div class="col-sm-6 col-md-3 col-lg-3 jogos handson">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
@@ -979,7 +1042,7 @@
           </div>
         </div>  
 
-    <div class="col-sm-6 col-md-3 col-lg-3 microcontrolador">
+    <div class="col-sm-6 col-md-3 col-lg-3 outros">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
