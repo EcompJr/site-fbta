@@ -22,7 +22,6 @@ label{
     float: none !important;
     text-align: center;
 }
-
 .hover-bg .hover-text {
     padding: 12% 10%;
 }
@@ -31,4 +30,9 @@ label{
 .hover-bg .hover-text {
     padding: 22% 10%;
 }
+}
+
+.hover-text:hover {
+    background: rgba(0,0,0,0.60);
+    cursor: pointer;
 }
